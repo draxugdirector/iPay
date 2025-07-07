@@ -13,11 +13,12 @@ body {
 .top-bar {
   height: 100px;
   background-color: #0a004d;
+  margin-bottom: 60px; /* Push content down 
 }
 
 .login-container {
   background-color: #3a1c2f;
-  margin: -40px auto 30px;
+  
   padding: 40px 20px;
   border-radius: 20px;
   width: 90%;
