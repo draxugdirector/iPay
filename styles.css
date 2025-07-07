@@ -52,6 +52,23 @@ h2 {
   font-size: 16px;
 }
 
+.password-container {
+  position: relative;
+  width: 100%;
+}
+
+.password-container input {
+  padding-right: 40px;
+}
+
+.password-container span {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  cursor: pointer;
+  color: #000;
+}
+
 .checkbox-container {
   text-align: left;
   margin: 10px 0;
@@ -111,20 +128,4 @@ footer {
   color: white;
   padding: 20px 0;
   font-size: 14px;
-}
-.password-container {
-  position: relative;
-  width: 100%;
-}
-
-.password-container input {
-  width: 100%;
-  padding-right: 40px;
-}
-
-.password-container span {
-  position: absolute;
-  right: 10px;
-  top: 12px;
-  cursor: pointer;
 }
